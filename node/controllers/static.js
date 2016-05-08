@@ -4,7 +4,7 @@ var router = express.Router()
 router.use(express.static(__dirname + '/../assets'))
 
 router.get('/', function (req, res) {
-	res.sendfile('layout/post.html')
+	res.sendfile('layout/app.html')
 })
 
 module.exports = router
