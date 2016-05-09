@@ -1,7 +1,7 @@
 var Post = require('../../models/post')
 var router = require('express').Router()
 
-router.get('/',  function (req, res, next) {
+router.get('/', function (req, res, next) {
 	Post.find()
 	.sort('-date')
 	.exec(function(err, posts) {
