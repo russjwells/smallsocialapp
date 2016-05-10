@@ -5,9 +5,9 @@ var Post = require('./models/post')
 var app = express()
 app.use(bodyParser.json())
 
-app.get('/', function (req, res) {
-	res.sendfile('layouts/posts.html')
-})
+//app.get('/', function (req, res) {
+//	res.sendfile('layouts/posts.html')
+//})
 
 app.use('/api/posts', require('./controllers/api/posts'))
 app.use( require('./controllers/static'))
