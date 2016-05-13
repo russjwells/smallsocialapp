@@ -12,7 +12,8 @@
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "jwt-simple": "^0.5.0",
-    "mongoose": "^4.4.13"
+    "mongoose": "^4.4.13",
+    "ws": "^1.1.0"
   },
   "devDependencies": {
     "gulp-util": "^3.0.7"
